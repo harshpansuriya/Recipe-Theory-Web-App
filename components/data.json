@@ -1,0 +1,38 @@
+ [
+    {
+        "name": "Dosa",
+        "buildTime": "2h 10m",
+        "recipe": "loremIpsum",
+        "ingridients": "palak, paneer, batata"
+    },
+    {
+        "name": "Bateta Pauva",
+        "buildTime": "2h 10m",
+        "recipe": "loremIpsum",
+        "ingridients": "palak, paneer, batata"
+    },
+    {
+        "name": "Dosa",
+        "buildTime": "2h 10m",
+        "recipe": "loremIpsum",
+        "ingridients": "palak, paneer, batata"
+    },
+    {
+        "name": "Dosa",
+        "buildTime": "2h 10m",
+        "recipe": "loremIpsum",
+        "ingridients": "palak, paneer, batata"
+    },
+    {
+        "name": "Dosa",
+        "buildTime": "2h 10m",
+        "recipe": "loremIpsum",
+        "ingridients": "palak, paneer, batata"
+    },
+    {
+        "name": "Dosa",
+        "buildTime": "2h 10m",
+        "recipe": "loremIpsum",
+        "ingridients": "palak, paneer, batata"
+    }
+]
