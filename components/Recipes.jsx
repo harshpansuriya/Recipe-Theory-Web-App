@@ -3,11 +3,24 @@ import data from "./data.json";
 import Details from "./Details";
 
 const Recipes = () => {
-  const [details, setDetails] = useState(false);
+  const [details, setDetails] = useState("false");
 
+  // var name;
   // const openDetails = () => {
   //   setDetails = true;
   // };
+
+  function ShowDetails(data) {
+    return (
+      //<Details props={name} />
+      <div>
+        {console.log(`clicked on ${data.name}`)}
+        <h1>Name: {data.name}</h1>
+        <h3>Time to build: {data.time}</h3>
+        <h3>Id is: {data.id}</h3>
+      </div>
+    );
+  }
 
   return (
     <div className="recipeContainer">
@@ -16,9 +29,16 @@ const Recipes = () => {
         {data.map((recipe) => {
           return (
             <div
+              key={recipe.id}
               className="cardSubContainer"
               onClick={() => {
-                console.log(`clicked on ${recipe.name}`);
+                const reci = {
+                  name: "Harsh",
+                  time: recipe.buildTime,
+                  id: recipe.id,
+                };
+                setDetails("true");
+                <ShowDetails data={reci} />;
               }}
             >
               <h1>{recipe.name}</h1>
@@ -28,8 +48,8 @@ const Recipes = () => {
             </div>
           );
         })}
-        <Details />
       </div>
+      {details === "true" && <ShowDetails />}
     </div>
   );
 };

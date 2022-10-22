@@ -88,6 +88,12 @@
   color: wheat;
 }
 
+.detailContainer {
+  width: max-content;
+  margin: auto;
+  text-align: center;
+}
+
 @media only screen and (max-width: 1124px) {
   .container {
     margin: 20px;
