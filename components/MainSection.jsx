@@ -8,7 +8,7 @@ const MainSection = () => {
         <h1 className="heading">
           <span className="gradientText">Hi There</span> 👋
         </h1>
-        <p className="subHeading">Let's find the Masterpeices...</p>
+        <p className="subHeading">Let's build the Masterpiece today...</p>
       </div>
 
       <img className="mainSecPhoto" src={bowlRecipe} alt="Bowl Recipe" />
